@@ -1,0 +1,50 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #DDE6ED;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+  }
+
+h1{
+    font-weight: bold;
+}
+
+nav {
+    background-color: #27374D;
+    padding: 10px;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+  } 
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+  }
+
+a:hover {
+    background-color: #526D82;
+    color: #ffffff;
+  }
+  
+.myphoto{
+    border-radius: 10px !important;
+    width: 30%;
+}
+
+button:hover{
+    background-color: #ff6200;
+}
+
+.footer{
+    font-size: 0.6rem;
+    padding: 25px;
+}
+
